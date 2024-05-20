@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="963pt" height="1080pt" viewBox="0 0 963 1080">
+<title>ParaView GL2PS Export</title>
+<desc>
+Creator: GL2PS 1.4.2, (C) 1999-2020 C. Geuzaine
+For: VTK
+CreationDate: Thu Mar 16 01:00:49 2023
+</desc>
+<defs>
+</defs>
+<g>
+<image x="0" y="0" width="963" height="1080"
+transform="matrix(1,0,0,1,0,0)"
+xlink:href="data:image/png;base64,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ACKUNAAARChpAACIUNIAABChpAEAIEJJAwBAhJIGAIAIJQ0AABFKGgAAIpQ0AABEKGkAAIhQ0gAAEKGkAQAgQkkDAECEkgYAgAglDQAAEUoaAAAilDQAAEQoaQAAiFDSAAAQoaQBACBCSQMAQISSBgCACCUNAAARShoAACKUNAAARChpAACIUNIAABChpAEAIEJJAwBAhJIGAIAIJQ0AABFKGgAAIpQ0AABEKGkAAIhQ0gAAEKGkAQAgQkkDAECEkgYAgAglDQAAEUoaAAAilDQAAEQoaQAAiFDSAAAQoaQBACBCSQMAQISSBgCACCUNAAARShoAACKUNAAARChpAACIUNIAABChpAEAIEJJAwBAhJIGAIAIJQ0AABFKGgAAIpQ0AABEKGkAAIhQ0gAAEKGkAQAgQkkDAECEkgYAgAglDQAAEUoaAAAilDQAAEQoaQAAiFDSAAAQoaQBACBCSQMAQISSBgCACCUNAAARShoAACKUNAAARChpAACIUNIAABChpAEAIEJJAwBAhJIGAIAIJQ0AABFKGgAAIpQ0AABEKGkAAIhQ0gAAEKGkAQAgQkkDAECEkgYAgAglDQAAEUoaAAAilDQAAEQoaQAAiFDSAAAQoaQBACBCSQMAQISSBgCACCUNAAARShoAACKUNAAARChpAACIUNIAABChpAEAIEJJAwBAhJIGAIAIJQ0AABFKGgAAIpQ0AABEKGkAAIhQ0gAAEKGkAQAgQkkDAECEkgYAgAglDQAAEUoaAAAilDQAAEQoaQAAiFDSAAAQoaQBACBCSQMAQISSBgCACCUNAAARShoAACKUNAAARChpAACIUNIAABChpAEAIEJJAwBAhJIGAIAIJQ0AABFKGgAAIpQ0AABEKGkAAIhQ0gAAEKGkAQAgQkkDAECEkgYAgAglDQAAEUoaAAAilDQAAEQoaQAAiFDSAAAQoaQBACBCSQMAQMQ/AV3MbmhKn6XiAAAAAElFTkSuQmCC"/>
+<image x="0" y="0" width="339" height="16"
+transform="matrix(1,0,0,1,322,1064)"
+xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVMAAAAQCAIAAAAkkgtVAAABqUlEQVRoge2TW27lMAxDSSr9mVnh7H8Tg/aK7Ifj9LEF6yAIFJqWnAQk8A8ACIoqSSQJAgBJFVkkSREAAIos3R4uHySxxPptg0SCJQAEWNJVFLGmPN0uiiLJ2qMvSbpPpT2lbhe1J68TkkuHQFLf6ntJevTdQXuJempS9a2WluHX3h/+u7NU1IJfNakqlShRYklFSqpi3cv3N1v9nnqfAkssUsI2bP0+HfjtF+13okARxRTyBl/IBV/0teu3vF7X33f9ufxffmc+Kh/0B/1CGu7YsJOGG3a6t97ojhs23OkXlrM7vc12XltP0o0Ednopjo0O3InjYOk2HMRpx7c/vfROZ9Vxo51OOkmvEfbekuRLsduLON3O89SOc9t/1HnqfDXbGKuzHWDVsYNkvd8ejTgJEhgIkPCusy8goMOAt+G53zoCBTSWhyENZT96bQS2smbtDmCIACaxVgmDAEIYFIZhOI9J/jCcyCR/GE5kkj8MJzLJH4YTmeQPw4lM8ofhRCb5w3Aik/xhOJFJ/jCcyCR/GE5kkj8MJzLJH4YTmeQPw4lM8ofhRD4BB7550BehirEAAAAASUVORK5CYII="/>
+<text fill="#000000" x="322" y="1049.4" font-size="16" text-anchor="middle" dy="0" font-family="Helvetica">-8.0e-01</text>
+<text fill="#000000" x="661" y="1049.4" font-size="16" text-anchor="middle" dy="0" font-family="Helvetica">8.0e-01</text>
+<text fill="#000000" x="385" y="1049.4" font-size="16" text-anchor="middle" dy="0" font-family="Helvetica">-0.5</text>
+<text fill="#000000" x="491" y="1049.4" font-size="16" text-anchor="middle" dy="0" font-family="Helvetica">0</text>
+<text fill="#000000" x="597" y="1049.4" font-size="16" text-anchor="middle" dy="0" font-family="Helvetica">0.5</text>
+<!--  Pathified string: $\sigma_{12}$ -->
+<g transform="
+     translate(490.50 1032.15)
+     scale(1.0 -1.0)
+     rotate(0.00)"
+   stroke="none"
+   fill="rgb(0,0,0)"
+   opacity="1.00"
+>
+  <path d="
+    M -6.85 11.51
+    Q -8.18 11.51
+      -9.09 10.55
+    Q -10.05 9.54
+      -10.36 7.87
+    Q -10.72 6.10
+      -10.15 5.08
+    Q -9.60 4.07
+      -8.29 4.07
+    Q -7.00 4.07
+      -6.05 5.09
+    Q -5.09 6.11
+      -4.75 7.87
+    Q -4.44 9.48
+      -4.99 10.55
+    Q -5.50 11.51
+      -6.85 11.51
+    L -6.85 11.51
+    M -6.60 12.81
+    L -1.22 12.80
+    L -1.54 11.18
+    L -3.35 11.18
+    Q -2.67 9.81
+      -3.04 7.87
+    Q -3.51 5.45
+      -4.98 4.08
+    Q -6.46 2.70
+      -8.56 2.70
+    Q -10.68 2.70
+      -11.61 4.08
+    Q -12.54 5.45
+      -12.07 7.87
+    Q -11.60 10.29
+      -10.14 11.66
+    Q -8.92 12.81
+      -6.60 12.81
+    L -6.60 12.81
+    M -0.12 1.05
+    L 1.91 1.05
+    L 1.91 8.05
+    L -0.30 7.61
+    L -0.30 8.74
+    L 1.90 9.19
+    L 3.14 9.19
+    L 3.14 1.05
+    L 5.17 1.05
+    L 5.17 0.00
+    L -0.12 0.00
+    L -0.12 1.05
+    M 8.75 1.05
+    L 13.09 1.05
+    L 13.09 0.00
+    L 7.26 0.00
+    L 7.26 1.05
+    Q 7.97 1.78
+      9.19 3.01
+    Q 10.41 4.24
+      10.72 4.60
+    Q 11.32 5.27
+      11.55 5.74
+    Q 11.79 6.20
+      11.79 6.65
+    Q 11.79 7.38
+      11.28 7.84
+    Q 10.76 8.31
+      9.94 8.31
+    Q 9.36 8.31
+      8.71 8.10
+    Q 8.06 7.90
+      7.32 7.49
+    L 7.32 8.74
+    Q 8.07 9.04
+      8.72 9.20
+    Q 9.37 9.35
+      9.92 9.35
+    Q 11.34 9.35
+      12.19 8.64
+    Q 13.04 7.92
+      13.04 6.73
+    Q 13.04 6.16
+      12.83 5.66
+    Q 12.62 5.15
+      12.06 4.46
+    Q 11.90 4.28
+      11.08 3.43
+    Q 10.25 2.58
+      8.75 1.05
+    L 8.75 1.05
+    " />
+</g>
+
+<polyline fill="none" stroke="#000000" stroke-width="0.714286" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="321.834,1056.48 321.834,1068.49"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.714286" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="661.187,1056.48 661.187,1068.49"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.714286" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="384.9,1056.48 384.9,1068.49"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.714286" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="491.01,1056.48 491.01,1068.49"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.714286" stroke-linecap="butt" stroke-linejoin="miter" stroke-dasharray="16,0" points="597.12,1056.48 597.12,1068.49"/>
+<!--  Pathified string: Current Configuration $\{\mathbf{y}\}$ -->
+<g transform="
+     translate(222.49 178.20)
+     scale(1.0 -1.0)
+     rotate(0.00)"
+   stroke="none"
+   fill="rgb(0,0,0)"
+   opacity="1.00"
+>
+  <path d="
+    M -222.76 7.04
+    L -222.76 3.09
+    Q -224.65 4.85
+      -226.80 5.72
+    Q -228.94 6.59
+      -231.35 6.59
+    Q -236.10 6.59
+      -238.62 3.69
+    Q -241.15 0.78
+      -241.15 -4.71
+    Q -241.15 -10.18
+      -238.62 -13.09
+    Q -236.10 -15.99
+      -231.35 -15.99
+    Q -228.94 -15.99
+      -226.80 -15.12
+    Q -224.65 -14.24
+      -222.76 -12.48
+    L -222.76 -16.40
+    Q -224.72 -17.74
+      -226.93 -18.41
+    Q -229.12 -19.07
+      -231.57 -19.07
+    Q -237.86 -19.07
+      -241.48 -15.22
+    Q -245.10 -11.37
+      -245.10 -4.71
+    Q -245.10 1.97
+      -241.48 5.82
+    Q -237.86 9.67
+      -231.57 9.67
+    Q -229.09 9.67
+      -226.89 9.01
+    Q -224.69 8.35
+      -222.76 7.04
+    L -222.76 7.04
+    M -217.47 -10.33
+    L -217.47 2.25
+    L -214.06 2.25
+    L -214.06 -10.20
+    Q -214.06 -13.15
+      -212.91 -14.63
+    Q -211.76 -16.10
+      -209.45 -16.10
+    Q -206.69 -16.10
+      -205.09 -14.34
+    Q -203.48 -12.58
+      -203.48 -9.53
+    L -203.48 2.25
+    L -200.07 2.25
+    L -200.07 -18.53
+    L -203.48 -18.53
+    L -203.48 -15.34
+    Q -204.72 -17.23
+      -206.37 -18.15
+    Q -208.00 -19.07
+      -210.18 -19.07
+    Q -213.76 -19.07
+      -215.62 -16.84
+    Q -217.47 -14.62
+      -217.47 -10.33
+    L -217.47 -10.33
+    M -208.88 2.75
+    L -208.88 2.75
+    M -180.99 -0.94
+    Q -181.57 -0.61
+      -182.25 -0.45
+    Q -182.92 -0.29
+      -183.74 -0.29
+    Q -186.63 -0.29
+      -188.18 -2.17
+    Q -189.73 -4.06
+      -189.73 -7.58
+    L -189.73 -18.53
+    L -193.17 -18.53
+    L -193.17 2.25
+    L -189.73 2.25
+    L -189.73 -0.98
+    Q -188.65 0.91
+      -186.93 1.83
+    Q -185.20 2.75
+      -182.73 2.75
+    Q -182.38 2.75
+      -181.96 2.70
+    Q -181.53 2.66
+      -181.01 2.57
+    L -180.99 -0.94
+    M -165.37 -0.94
+    Q -165.95 -0.61
+      -166.62 -0.45
+    Q -167.30 -0.29
+      -168.11 -0.29
+    Q -171.01 -0.29
+      -172.56 -2.17
+    Q -174.11 -4.06
+      -174.11 -7.58
+    L -174.11 -18.53
+    L -177.54 -18.53
+    L -177.54 2.25
+    L -174.11 2.25
+    L -174.11 -0.98
+    Q -173.03 0.91
+      -171.31 1.83
+    Q -169.58 2.75
+      -167.11 2.75
+    Q -166.76 2.75
+      -166.33 2.70
+    Q -165.90 2.66
+      -165.39 2.57
+    L -165.37 -0.94
+    M -144.01 -7.29
+    L -144.01 -8.95
+    L -159.71 -8.95
+    Q -159.48 -12.48
+      -157.58 -14.33
+    Q -155.68 -16.17
+      -152.29 -16.17
+    Q -150.32 -16.17
+      -148.48 -15.69
+    Q -146.63 -15.21
+      -144.81 -14.24
+    L -144.81 -17.47
+    Q -146.65 -18.25
+      -148.58 -18.66
+    Q -150.51 -19.07
+      -152.49 -19.07
+    Q -157.47 -19.07
+      -160.37 -16.18
+    Q -163.27 -13.28
+      -163.27 -8.34
+    Q -163.27 -3.24
+      -160.52 -0.25
+    Q -157.76 2.75
+      -153.08 2.75
+    Q -148.89 2.75
+      -146.45 0.05
+    Q -144.01 -2.65
+      -144.01 -7.29
+    L -144.01 -7.29
+    M -147.43 -6.28
+    Q -147.46 -3.49
+      -148.99 -1.82
+    Q -150.53 -0.14
+      -153.05 -0.14
+    Q -155.90 -0.14
+      -157.62 -1.76
+    Q -159.34 -3.37
+      -159.60 -6.31
+    L -147.43 -6.28
+    M -121.13 -5.98
+    L -121.13 -18.53
+    L -124.55 -18.53
+    L -124.55 -6.10
+    Q -124.55 -3.15
+      -125.70 -1.69
+    Q -126.85 -0.22
+      -129.15 -0.22
+    Q -131.91 -0.22
+      -133.51 -1.98
+    Q -135.11 -3.74
+      -135.11 -6.79
+    L -135.11 -18.53
+    L -138.54 -18.53
+    L -138.54 2.25
+    L -135.11 2.25
+    L -135.11 -0.98
+    Q -133.88 0.90
+      -132.22 1.82
+    Q -130.56 2.75
+      -128.39 2.75
+    Q -124.81 2.75
+      -122.97 0.53
+    Q -121.13 -1.68
+      -121.13 -5.98
+    L -121.13 -5.98
+    M -110.95 8.15
+    L -110.95 2.25
+    L -103.92 2.25
+    L -103.92 -0.40
+    L -110.95 -0.40
+    L -110.95 -11.68
+    Q -110.95 -14.23
+      -110.25 -14.95
+    Q -109.56 -15.67
+      -107.42 -15.67
+    L -103.92 -15.67
+    L -103.92 -18.53
+    L -107.42 -18.53
+    Q -111.37 -18.53
+      -112.88 -17.06
+    Q -114.38 -15.58
+      -114.38 -11.68
+    L -114.38 -0.40
+    L -116.88 -0.40
+    L -116.88 2.25
+    L -114.38 2.25
+    L -114.38 8.15
+    L -110.95 8.15
+    M -66.45 7.04
+    L -66.45 3.09
+    Q -68.35 4.85
+      -70.49 5.72
+    Q -72.63 6.59
+      -75.04 6.59
+    Q -79.79 6.59
+      -82.32 3.69
+    Q -84.84 0.78
+      -84.84 -4.71
+    Q -84.84 -10.18
+      -82.32 -13.09
+    Q -79.79 -15.99
+      -75.04 -15.99
+    Q -72.63 -15.99
+      -70.49 -15.12
+    Q -68.35 -14.24
+      -66.45 -12.48
+    L -66.45 -16.40
+    Q -68.42 -17.74
+      -70.62 -18.41
+    Q -72.82 -19.07
+      -75.26 -19.07
+    Q -81.56 -19.07
+      -85.18 -15.22
+    Q -88.80 -11.37
+      -88.80 -4.71
+    Q -88.80 1.97
+      -85.18 5.82
+    Q -81.56 9.67
+      -75.26 9.67
+    Q -72.78 9.67
+      -70.59 9.01
+    Q -68.38 8.35
+      -66.45 7.04
+    L -66.45 7.04
+    M -52.76 -0.14
+    Q -55.51 -0.14
+      -57.10 -2.29
+    Q -58.70 -4.43
+      -58.70 -8.16
+    Q -58.70 -11.89
+      -57.12 -14.03
+    Q -55.52 -16.17
+      -52.76 -16.17
+    Q -50.03 -16.17
+      -48.44 -14.02
+    Q -46.84 -11.87
+      -46.84 -8.16
+    Q -46.84 -4.47
+      -48.44 -2.30
+    Q -50.03 -0.14
+      -52.76 -0.14
+    L -52.76 -0.14
+    M -52.76 2.75
+    Q -48.31 2.75
+      -45.77 -0.15
+    Q -43.22 -3.04
+      -43.22 -8.16
+    Q -43.22 -13.26
+      -45.77 -16.17
+    Q -48.31 -19.07
+      -52.76 -19.07
+    Q -57.23 -19.07
+      -59.77 -16.17
+    Q -62.30 -13.26
+      -62.30 -8.16
+    Q -62.30 -3.04
+      -59.77 -0.15
+    Q -57.23 2.75
+      -52.76 2.75
+    L -52.76 2.75
+    M -20.29 -5.98
+    L -20.29 -18.53
+    L -23.70 -18.53
+    L -23.70 -6.10
+    Q -23.70 -3.15
+      -24.85 -1.69
+    Q -26.00 -0.22
+      -28.30 -0.22
+    Q -31.07 -0.22
+      -32.67 -1.98
+    Q -34.26 -3.74
+      -34.26 -6.79
+    L -34.26 -18.53
+    L -37.70 -18.53
+    L -37.70 2.25
+    L -34.26 2.25
+    L -34.26 -0.98
+    Q -33.03 0.90
+      -31.38 1.82
+    Q -29.72 2.75
+      -27.54 2.75
+    Q -23.96 2.75
+      -22.13 0.53
+    Q -20.29 -1.68
+      -20.29 -5.98
+    L -20.29 -5.98
+    M -2.96 10.34
+    L -2.96 7.50
+    L -6.23 7.50
+    Q -8.06 7.50
+      -8.78 6.76
+    Q -9.49 6.01
+      -9.49 4.08
+    L -9.49 2.25
+    L -3.87 2.25
+    L -3.87 -0.40
+    L -9.49 -0.40
+    L -9.49 -18.53
+    L -12.92 -18.53
+    L -12.92 -0.40
+    L -16.19 -0.40
+    L -16.19 2.25
+    L -12.92 2.25
+    L -12.92 3.70
+    Q -12.92 7.17
+      -11.31 8.75
+    Q -9.69 10.34
+      -6.19 10.34
+    L -2.96 10.34
+    M -0.10 2.25
+    L 3.31 2.25
+    L 3.31 -18.53
+    L -0.10 -18.53
+    L -0.10 2.25
+    M -0.10 10.34
+    L 3.31 10.34
+    L 3.31 6.01
+    L -0.10 6.01
+    L -0.10 10.34
+    M 24.13 -7.90
+    Q 24.13 -4.19
+      22.60 -2.15
+    Q 21.07 -0.11
+      18.30 -0.11
+    Q 15.56 -0.11
+      14.03 -2.15
+    Q 12.50 -4.19
+      12.50 -7.90
+    Q 12.50 -11.59
+      14.03 -13.63
+    Q 15.56 -15.67
+      18.30 -15.67
+    Q 21.07 -15.67
+      22.60 -13.63
+    Q 24.13 -11.59
+      24.13 -7.90
+    L 24.13 -7.90
+    M 27.54 -15.95
+    Q 27.54 -21.26
+      25.19 -23.84
+    Q 22.83 -26.43
+      17.97 -26.43
+    Q 16.17 -26.43
+      14.58 -26.17
+    Q 12.98 -25.90
+      11.48 -25.34
+    L 11.48 -22.02
+    Q 12.98 -22.84
+      14.44 -23.22
+    Q 15.91 -23.61
+      17.43 -23.61
+    Q 20.79 -23.61
+      22.46 -21.86
+    Q 24.13 -20.11
+      24.13 -16.57
+    L 24.13 -14.87
+    Q 23.07 -16.71
+      21.42 -17.62
+    Q 19.77 -18.53
+      17.47 -18.53
+    Q 13.65 -18.53
+      11.31 -15.62
+    Q 8.97 -12.71
+      8.97 -7.90
+    Q 8.97 -3.08
+      11.31 -0.17
+    Q 13.65 2.75
+      17.47 2.75
+    Q 19.77 2.75
+      21.42 1.84
+    Q 23.07 0.93
+      24.13 -0.90
+    L 24.13 2.25
+    L 27.54 2.25
+    L 27.54 -15.95
+    M 34.23 -10.33
+    L 34.23 2.25
+    L 37.64 2.25
+    L 37.64 -10.20
+    Q 37.64 -13.15
+      38.79 -14.63
+    Q 39.94 -16.10
+      42.24 -16.10
+    Q 45.00 -16.10
+      46.60 -14.34
+    Q 48.21 -12.58
+      48.21 -9.53
+    L 48.21 2.25
+    L 51.63 2.25
+    L 51.63 -18.53
+    L 48.21 -18.53
+    L 48.21 -15.34
+    Q 46.97 -17.23
+      45.33 -18.15
+    Q 43.69 -19.07
+      41.52 -19.07
+    Q 37.94 -19.07
+      36.08 -16.84
+    Q 34.23 -14.62
+      34.23 -10.33
+    L 34.23 -10.33
+    M 42.82 2.75
+    L 42.82 2.75
+    M 70.70 -0.94
+    Q 70.12 -0.61
+      69.45 -0.45
+    Q 68.77 -0.29
+      67.96 -0.29
+    Q 65.06 -0.29
+      63.51 -2.17
+    Q 61.96 -4.06
+      61.96 -7.58
+    L 61.96 -18.53
+    L 58.53 -18.53
+    L 58.53 2.25
+    L 61.96 2.25
+    L 61.96 -0.98
+    Q 63.04 0.91
+      64.76 1.83
+    Q 66.49 2.75
+      68.96 2.75
+    Q 69.31 2.75
+      69.74 2.70
+    Q 70.17 2.66
+      70.68 2.57
+    L 70.70 -0.94
+    M 83.73 -8.09
+    Q 79.59 -8.09
+      77.99 -9.03
+    Q 76.40 -9.97
+      76.40 -12.26
+    Q 76.40 -14.08
+      77.60 -15.15
+    Q 78.80 -16.21
+      80.85 -16.21
+    Q 83.69 -16.21
+      85.41 -14.20
+    Q 87.13 -12.18
+      87.13 -8.85
+    L 87.13 -8.09
+    L 83.73 -8.09
+    M 90.54 -6.67
+    L 90.54 -18.53
+    L 87.13 -18.53
+    L 87.13 -15.38
+    Q 85.96 -17.27
+      84.21 -18.17
+    Q 82.46 -19.07
+      79.94 -19.07
+    Q 76.75 -19.07
+      74.86 -17.28
+    Q 72.98 -15.48
+      72.98 -12.48
+    Q 72.98 -8.98
+      75.33 -7.20
+    Q 77.68 -5.41
+      82.33 -5.41
+    L 87.13 -5.41
+    L 87.13 -5.08
+    Q 87.13 -2.72
+      85.58 -1.43
+    Q 84.03 -0.14
+      81.22 -0.14
+    Q 79.44 -0.14
+      77.75 -0.57
+    Q 76.06 -1.00
+      74.51 -1.85
+    L 74.51 1.31
+    Q 76.38 2.03
+      78.14 2.39
+    Q 79.91 2.75
+      81.57 2.75
+    Q 86.09 2.75
+      88.31 0.41
+    Q 90.54 -1.92
+      90.54 -6.67
+    L 90.54 -6.67
+    M 100.95 8.15
+    L 100.95 2.25
+    L 107.98 2.25
+    L 107.98 -0.40
+    L 100.95 -0.40
+    L 100.95 -11.68
+    Q 100.95 -14.23
+      101.64 -14.95
+    Q 102.34 -15.67
+      104.47 -15.67
+    L 107.98 -15.67
+    L 107.98 -18.53
+    L 104.47 -18.53
+    Q 100.52 -18.53
+      99.02 -17.06
+    Q 97.52 -15.58
+      97.52 -11.68
+    L 97.52 -0.40
+    L 95.01 -0.40
+    L 95.01 2.25
+    L 97.52 2.25
+    L 97.52 8.15
+    L 100.95 8.15
+    M 112.47 2.25
+    L 115.88 2.25
+    L 115.88 -18.53
+    L 112.47 -18.53
+    L 112.47 2.25
+    M 112.47 10.34
+    L 115.88 10.34
+    L 115.88 6.01
+    L 112.47 6.01
+    L 112.47 10.34
+    M 131.08 -0.14
+    Q 128.33 -0.14
+      126.74 -2.29
+    Q 125.14 -4.43
+      125.14 -8.16
+    Q 125.14 -11.89
+      126.72 -14.03
+    Q 128.32 -16.17
+      131.08 -16.17
+    Q 133.81 -16.17
+      135.40 -14.02
+    Q 137.00 -11.87
+      137.00 -8.16
+    Q 137.00 -4.47
+      135.40 -2.30
+    Q 133.81 -0.14
+      131.08 -0.14
+    L 131.08 -0.14
+    M 131.08 2.75
+    Q 135.53 2.75
+      138.07 -0.15
+    Q 140.62 -3.04
+      140.62 -8.16
+    Q 140.62 -13.26
+      138.07 -16.17
+    Q 135.53 -19.07
+      131.08 -19.07
+    Q 126.61 -19.07
+      124.07 -16.17
+    Q 121.54 -13.26
+      121.54 -8.16
+    Q 121.54 -3.04
+      124.07 -0.15
+    Q 126.61 2.75
+      131.08 2.75
+    L 131.08 2.75
+    M 163.55 -5.98
+    L 163.55 -18.53
+    L 160.14 -18.53
+    L 160.14 -6.10
+    Q 160.14 -3.15
+      158.99 -1.69
+    Q 157.84 -0.22
+      155.54 -0.22
+    Q 152.77 -0.22
+      151.17 -1.98
+    Q 149.58 -3.74
+      149.58 -6.79
+    L 149.58 -18.53
+    L 146.14 -18.53
+    L 146.14 2.25
+    L 149.58 2.25
+    L 149.58 -0.98
+    Q 150.81 0.90
+      152.46 1.82
+    Q 154.12 2.75
+      156.30 2.75
+    Q 159.88 2.75
+      161.71 0.53
+    Q 163.55 -1.68
+      163.55 -5.98
+    L 163.55 -5.98
+    M 198.29 -22.06
+    L 198.29 -24.73
+    L 197.13 -24.73
+    Q 192.51 -24.73
+      190.95 -23.35
+    Q 189.38 -21.98
+      189.38 -17.88
+    L 189.38 -13.45
+    Q 189.38 -10.65
+      188.38 -9.57
+    Q 187.37 -8.49
+      184.74 -8.49
+    L 183.61 -8.49
+    L 183.61 -5.84
+    L 184.74 -5.84
+    Q 187.40 -5.84
+      188.39 -4.77
+    Q 189.38 -3.70
+      189.38 -0.94
+    L 189.38 3.51
+    Q 189.38 7.61
+      190.95 8.98
+    Q 192.51 10.34
+      197.13 10.34
+    L 198.29 10.34
+    L 198.29 7.69
+    L 197.02 7.69
+    Q 194.41 7.69
+      193.61 6.87
+    Q 192.81 6.06
+      192.81 3.44
+    L 192.81 -1.16
+    Q 192.81 -4.08
+      191.97 -5.40
+    Q 191.12 -6.71
+      189.08 -7.17
+    Q 191.14 -7.68
+      191.97 -9.00
+    Q 192.81 -10.31
+      192.81 -13.20
+    L 192.81 -17.81
+    Q 192.81 -20.42
+      193.61 -21.24
+    Q 194.41 -22.06
+      197.02 -22.06
+    L 198.29 -22.06
+    M 203.50 2.25
+    L 210.14 2.25
+    L 215.73 -11.85
+    L 220.48 2.25
+    L 227.12 2.25
+    L 218.38 -20.50
+    Q 217.06 -23.97
+      215.31 -25.35
+    Q 213.56 -26.73
+      210.68 -26.73
+    L 206.84 -26.73
+    L 206.84 -22.37
+    L 208.92 -22.37
+    Q 210.60 -22.37
+      211.37 -21.83
+    Q 212.14 -21.30
+      212.57 -19.90
+    L 212.76 -19.33
+    L 203.50 2.25
+    M 232.55 -22.06
+    L 233.86 -22.06
+    Q 236.45 -22.06
+      237.24 -21.26
+    Q 238.03 -20.46
+      238.03 -17.81
+    L 238.03 -13.20
+    Q 238.03 -10.31
+      238.86 -9.00
+    Q 239.70 -7.68
+      241.76 -7.17
+    Q 239.70 -6.71
+      238.86 -5.40
+    Q 238.03 -4.08
+      238.03 -1.16
+    L 238.03 3.44
+    Q 238.03 6.07
+      237.24 6.88
+    Q 236.45 7.69
+      233.86 7.69
+    L 232.55 7.69
+    L 232.55 10.34
+    L 233.72 10.34
+    Q 238.34 10.34
+      239.89 8.98
+    Q 241.44 7.61
+      241.44 3.51
+    L 241.44 -0.94
+    Q 241.44 -3.70
+      242.44 -4.77
+    Q 243.44 -5.84
+      246.08 -5.84
+    L 247.23 -5.84
+    L 247.23 -8.49
+    L 246.08 -8.49
+    Q 243.44 -8.49
+      242.44 -9.57
+    Q 241.44 -10.65
+      241.44 -13.45
+    L 241.44 -17.88
+    Q 241.44 -21.98
+      239.89 -23.35
+    Q 238.34 -24.73
+      233.72 -24.73
+    L 232.55 -24.73
+    L 232.55 -22.06
+    " />
+</g>
+
+</g>
+</svg>
